@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $opcions = [
         'host' => 'zend-alrigu.fjeclot.net',
         'username' => "cn=admin,$domini",
-        'password' => 'clotfje', // Asegúrate de que esta contraseña es correcta
+        'password' => 'clotfje',
         'bindRequiresDn' => true,
         'accountDomainName' => 'fjeclot.net',
         'baseDn' => 'dc=fjeclot,dc=net',
